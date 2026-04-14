@@ -1,8 +1,8 @@
-\# Requirements and Conceptual Model - Lana's Dog Walking
+\# Requirements and Conceptual Model
 
 
 
-Study Group Members:-
+Study Group Members
 
 \* Charles Palacios
 
@@ -22,7 +22,7 @@ Study Group Members:-
 
 \* What data is needed?
 
-&#x20;   
+&#x20;
 
 Dog Information
 
@@ -58,7 +58,7 @@ Dog Information
 
 ​Scheduled Start Time
 
-​Actual Duration 
+​Actual Duration
 
 ​Total Distance Covered
 
