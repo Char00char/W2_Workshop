@@ -20,7 +20,7 @@ Study Group Members
 
 \* What does she need to do?
 
-See which dogs are scheduled for walks on any given day
+    See which dogs are scheduled for walks on any given day
 
     Track which customers own which dogs
 
@@ -36,45 +36,90 @@ See which dogs are scheduled for walks on any given day
 
 
 
-Dog Information
+\* Pets
 
-​Dog Name
+    Dog_id
 
-​Breed (e.g., Golden Retriever, Poodle)
+    customer_id
 
-​Age
+    ​Dog Name
 
-​Weight
+​   Breed (e.g., Golden Retriever, Poodle)
 
-​Medical/Behavioral Notes (e.g., "Leash aggressive" or "Allergic to nuts")
+​   Age
+
+    Size
+
+​   Medical/Behavioral Notes (e.g., "Leash aggressive" or "Allergic to nuts")
 
 
 
-​Owner Information
+\*​ Customer Information
+    
+    Customer_id
 
+<<<<<<< HEAD
 ​Owner First Name / Last Name
+=======
+​   Customer First \& Last Name
+>>>>>>> f347c9b13839c30d079e5354888c4b52d19844ca
 
-​Primary Phone Number
+​   Primary Phone Number
 
-​Email Address
+​   Email Address
 
-​Home Address (Pick-up/Drop-off location)
+​   Home Address (Pick-up/Drop-off location)
 
-​Emergency Contact Info
+​   Emergency Contact Info
 
 
 
-​Walk Details
+\* ​Walk Details
 
-​Date of Walk
+    walk_id
 
-​Scheduled Start Time
+    pet_id
 
-​Actual Duration
+    scheduled_date
 
-​Total Distance Covered
+    scheduled_time
 
-​Price
+    status
 
-​Payment Status (Paid/Unpaid)
+    notes
+
+​   
+
+\* Payments
+
+    payment_id
+
+    customer_id
+
+    walk_id
+
+    amount
+
+    payment_date
+
+    payment_method
+
+​    Payment Status (Paid/Unpaid)
+
+
+\* Business
+
+    walker_id
+
+    first_name
+
+    last_name
+
+    email
+
+    phone
+
+    role
+
+    hire_date
 
