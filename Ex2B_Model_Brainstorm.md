@@ -20,6 +20,18 @@ Study Group Members
 
 \* What does she need to do?
 
+See which dogs are scheduled for walks on any given day
+
+    Track which customers own which dogs
+
+    Record when walks were completed
+
+    Log payments and know who owes money
+
+    Store contact info for customers
+
+    Know which walker is assigned to each walk (if she hires help later)
+
 \* What data is needed?
 
 &#x20;
