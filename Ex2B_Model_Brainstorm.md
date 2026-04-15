@@ -135,4 +135,4 @@ Study Group Members
     Payments : payment_id, customer_id, walk_id, amount ,payment_date, payment_method, payment_status
   
    c) Customer information to pets information, one customer may have many pets. pet information to walk information, one pet may have many walks. Payments to customers, one customer may have many payments. 
-   d) none at the mome\
+   d) none at the moment
