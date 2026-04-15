@@ -124,7 +124,12 @@ Study Group Members
       customer information
       walk information 
       payment details  
-  b) under dog information:- Dog id customer id ,walks appointment, ​Dog Name, Breed, Age, Size
-     customer information:-  Customer id, Customer First \& Last Name, Primary Phone                           Number, Email Address,  Home Address (Pick-up/Drop-off location),Emergency Contact Info
-      under walk appointments:-walk id, pet id ,scheduled date ,scheduled time status, notes
-      under payment details:-payment id, customer id, walk id, amount ,payment date, payment method, Payment Status
+  b)  
+  
+    Dog Information:- dog_id, customer_id,walks appointment, ​dog_name, breed, age, size, notes
+
+    Customer Information:-  customer_id, customer first_name, last_name, phone, email, address, city, state, emergency_contact
+
+    Walk Information: walk_id, pet_id, scheduled_date , scheduled_time, duration_minutes, status, notes
+
+    Payments : payment_id, customer_id, walk_id, amount ,payment_date, payment_method, payment_status
