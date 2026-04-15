@@ -34,7 +34,7 @@ See which dogs are scheduled for walks on any given day
 
 \* What data is needed?
 
-&#x20;
+
 
 Dog Information
 
@@ -52,7 +52,7 @@ Dog Information
 
 ​Owner Information
 
-​Owner First \& Last Name
+​Owner First Name / Last Name
 
 ​Primary Phone Number
 
