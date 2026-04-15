@@ -103,7 +103,7 @@ Study Group Members
 ​    Payment Status (Paid/Unpaid)
 
 
-\* Business
+\* employee
 
     walker_id
 
@@ -123,8 +123,10 @@ Study Group Members
   a)  dog information 
       customer information
       walk information 
-      payment details  
+      payment details 
+      business  
   b) under dog information:- Dog id customer id ,walks appointment, ​Dog Name, Breed, Age, Size
      customer information:-  Customer id, Customer First \& Last Name, Primary Phone                           Number, Email Address,  Home Address (Pick-up/Drop-off location),Emergency Contact Info
       under walk appointments:-walk id, pet id ,scheduled date ,scheduled time status, notes
       under payment details:-payment id, customer id, walk id, amount ,payment date, payment method, Payment Status
+      under employess:- walker id, first and last name, email, phone, role ,hiredate
