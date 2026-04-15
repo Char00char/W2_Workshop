@@ -130,4 +130,4 @@ Study Group Members
       under payment details:-payment id, customer id, walk id, amount ,payment date, payment method, Payment Status
       under business - walker_id, first_name, last_name, email, phone, role, hire_date
    c) Customer information to pets information, one customer may have many pets. pet information to walk information, one pet may have many walks. Payments to customers, one customer may have many payments. 
-   d) none at the mome\
+   d) none at the moment
