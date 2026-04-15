@@ -123,3 +123,12 @@ Study Group Members
 
     hire_date
 
+# logical model 
+  a)  dog information 
+      customer information
+      walk information 
+      payment details  
+  b) under dog information:- Dog id customer id ,walks appointment, ​Dog Name, Breed, Age, Size
+     customer information:-  Customer id, Customer First \& Last Name, Primary Phone                           Number, Email Address,  Home Address (Pick-up/Drop-off location),Emergency Contact Info
+      under walk appointments:-walk id, pet id ,scheduled date ,scheduled time status, notes
+      under payment details:-payment id, customer id, walk id, amount ,payment date, payment method, Payment Status
