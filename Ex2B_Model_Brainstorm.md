@@ -108,7 +108,7 @@ Study Group Members
     walker_id
 
     first_name
-
+    
     last_name
 
     email
@@ -123,6 +123,7 @@ Study Group Members
   a)  dog information 
       customer information
       walk information 
+<<<<<<< HEAD
       payment details 
       business  
   b) under dog information:- Dog id customer id ,walks appointment, ​Dog Name, Breed, Age, Size
@@ -130,3 +131,18 @@ Study Group Members
       under walk appointments:-walk id, pet id ,scheduled date ,scheduled time status, notes
       under payment details:-payment id, customer id, walk id, amount ,payment date, payment method, Payment Status
       under employess:- walker id, first and last name, email, phone, role ,hiredate
+=======
+      payment details  
+  b)  
+  
+    Dog Information:- dog_id, customer_id,walks appointment, ​dog_name, breed, age, size, notes
+
+    Customer Information:-  customer_id, customer first_name, last_name, phone, email, address, city, state, emergency_contact
+
+    Walk Information: walk_id, pet_id, scheduled_date , scheduled_time, duration_minutes, status, notes
+
+    Payments : payment_id, customer_id, walk_id, amount ,payment_date, payment_method, payment_status
+  
+   c) Customer information to pets information, one customer may have many pets. pet information to walk information, one pet may have many walks. Payments to customers, one customer may have many payments. 
+   d) none at the moment
+>>>>>>> f291af856868623caeec39c67e39eed67c7896ef
