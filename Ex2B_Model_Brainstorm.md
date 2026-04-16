@@ -58,11 +58,7 @@ Study Group Members
     
     Customer_id
 
-<<<<<<< HEAD
-​Owner First Name / Last Name
-=======
 ​   Customer First \& Last Name
->>>>>>> f347c9b13839c30d079e5354888c4b52d19844ca
 
 ​   Primary Phone Number
 
