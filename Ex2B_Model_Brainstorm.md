@@ -34,7 +34,7 @@ Study Group Members
 
 \* What data is needed?
 
-
+&#x20;
 
 \* Pets
 
@@ -123,15 +123,6 @@ Study Group Members
   a)  dog information 
       customer information
       walk information 
-<<<<<<< HEAD
-      payment details 
-      business  
-  b) under dog information:- Dog id customer id ,walks appointment, ​Dog Name, Breed, Age, Size
-     customer information:-  Customer id, Customer First \& Last Name, Primary Phone                           Number, Email Address,  Home Address (Pick-up/Drop-off location),Emergency Contact Info
-      under walk appointments:-walk id, pet id ,scheduled date ,scheduled time status, notes
-      under payment details:-payment id, customer id, walk id, amount ,payment date, payment method, Payment Status
-      under employess:- walker id, first and last name, email, phone, role ,hiredate
-=======
       payment details  
   b)  
   
@@ -145,4 +136,7 @@ Study Group Members
   
    c) Customer information to pets information, one customer may have many pets. pet information to walk information, one pet may have many walks. Payments to customers, one customer may have many payments. 
    d) none at the moment
->>>>>>> f291af856868623caeec39c67e39eed67c7896ef
+
+
+4) a) the similarties are we have mostly similar tables because we clarified brainstorm ideas before turning them to tables.
+   b) the only difference we have is on the charles diyageram the ai tool provide an extra table for payment walks to hundle multiple payments.
