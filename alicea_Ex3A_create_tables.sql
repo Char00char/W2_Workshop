@@ -23,3 +23,36 @@ CREATE TABLE Customers (
     zip VARCHAR(10),
     emergency_contact VARCHAR(100)
 );
+
+CREATE TABLE Pets (
+	pet_id INT AUTO_INCREMENT PRIMARY KEY,
+    customer_id INT NOT NULL,
+    dog_name VARCHAR(50),
+    date_of_birth DATE,
+    size VARCHAR(10),
+    notes TEXT,
+    FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
+);
+
+CREATE TABLE Walks (
+    walk_id INT AUTO_INCREMENT PRIMARY KEY,
+    pet_id INT NOT NULL,
+    walker_id INT NOT NULL,
+    scheduled_date DATE NOT NULL,
+    scheduled_time TIME,
+    duration_minutes INT,
+    status VARCHAR(20) DEFAULT 'scheduled',
+    notes TEXT,
+    FOREIGN KEY (pet_id) REFERENCES Pets(pet_id),
+    FOREIGN KEY (walker_id) REFERENCES Walkers(walker_id)
+);
+
+CREATE TABLE Payments (
+    payment_id INT AUTO_INCREMENT PRIMARY KEY,
+    walk_id INT NOT NULL,
+    amount DECIMAL(10, 2) NOT NULL,
+    payment_date DATE,
+    payment_method VARCHAR(30),
+    payment_status VARCHAR(20) DEFAULT 'pending',
+    FOREIGN KEY (walk_id) REFERENCES Walks(walk_id)
+);
