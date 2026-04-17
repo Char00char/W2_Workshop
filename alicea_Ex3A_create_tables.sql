@@ -50,6 +50,23 @@ CREATE TABLE Walks (
 CREATE TABLE Payments (
     payment_id INT AUTO_INCREMENT PRIMARY KEY,
     walk_id INT NOT NULL,
+    customer_id INT NOT NULL,
+    amount DECIMAL(10, 2) NOT NULL,
+    payment_date DATE,
+    payment_method VARCHAR(30),
+    payment_status VARCHAR(20) DEFAULT 'pending',
+    FOREIGN KEY (walk_id) REFERENCES Walks(walk_id),
+    FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
+);
+
+ALTER TABLE Pets
+ADD COLUMN breed VARCHAR(50) AFTER dog_name;
+
+DROP TABLE Payments;
+
+CREATE TABLE Payments (
+    payment_id INT AUTO_INCREMENT PRIMARY KEY,
+    walk_id INT NOT NULL,
     amount DECIMAL(10, 2) NOT NULL,
     payment_date DATE,
     payment_method VARCHAR(30),
