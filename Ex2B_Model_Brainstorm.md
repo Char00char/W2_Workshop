@@ -140,3 +140,8 @@ Study Group Members
 
 4) a) the similarties are we have mostly similar tables because we clarified brainstorm ideas before turning them to tables.
    b) the only difference we have is on the charles diyageram the ai tool provide an extra table for payment walks to hundle multiple payments.
+ 6) 
+   a) Using AI was interesting. We found the AI tool useful like for example, it showed different breeds when Betelehem only knew about a couple. Some areas were not useful as ChatGPT kept giving Charles not exactly what he wanted and adding an extra payment table on the ERD
+   b) The sample data is organized into different tables like customers, dogs, employees, walk details, and payments, and they are all connected to each other. It looks clean and structured, and each table stores its own type of information without repeating too much data.
+   c) we had some differences on the customer tables, address, state, emergency contacts
+   we had similarities with pets and walks, walkers,   
